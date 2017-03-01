@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.joking.jk.activity.HomeActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TitleBar"
+        android:text="功能列表" />
+
+    <!--android:ellipsize="marquee"-->
+    <!--android:focusable="true"-->
+    <!--android:focusableInTouchMode="true"-->
+    <!--android:singleLine="true"-->
+    <!--<item name="android:marqueeRepeatLimit">marquee_forever</item>-->
+
+    <TextView
+        style="@style/Marquee"
+        android:text="极客卫士为你手机保驾护航，全方位呵护你的手机233333"
+        />
+
+    <GridView
+        android:id="@+id/gv_home"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:numColumns="3"
+        ></GridView>
+</LinearLayout>

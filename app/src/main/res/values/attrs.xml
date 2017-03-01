@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingItemView">
+        <attr name="siv_title" format="string" />
+        <attr name="siv_desc_on" format="string" />
+        <attr name="siv_desc_off" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SettingClickView">
+        <attr name="scv_title" format="string" />
+        <attr name="scv_desc" format="string" />
+    </declare-styleable>
+</resources>

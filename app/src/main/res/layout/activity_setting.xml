@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.joking.jk.activity.SettingActivity">
+
+    <TextView
+        style="@style/TitleBar"
+        android:text="设置中心" />
+
+    <com.joking.jk.view.SettingItemView
+        android:id="@+id/siv_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:siv_desc_off="自动更新已关闭"
+        app:siv_desc_on="自动更新已开启"
+        app:siv_title="自动更新设置" />
+
+    <com.joking.jk.view.SettingItemView
+        android:id="@+id/siv_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:siv_desc_off="归属地显示已经关闭"
+        app:siv_desc_on="归属地显示已经开启"
+        app:siv_title="电话归属地显示设置" />
+
+    <com.joking.jk.view.SettingClickView
+        android:id="@+id/scv_addressstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:scv_desc="卫士蓝"
+        app:scv_title="归属地提示框风格" />
+
+    <com.joking.jk.view.SettingClickView
+        android:id="@+id/scv_addresslocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:scv_desc="设置归属地提示框的显示位置"
+        app:scv_title="归属地提示框显示位置" />
+
+    <com.joking.jk.view.SettingItemView
+        android:id="@+id/siv_floatwindow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:siv_desc_off="悬浮窗已关闭"
+        app:siv_desc_on="悬浮窗已开启"
+        app:siv_title="悬浮窗设置" />
+
+    <com.joking.jk.view.SettingItemView
+        android:id="@+id/siv_callsafe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:siv_desc_off="黑名单拦截已关闭"
+        app:siv_desc_on="黑名单拦截已开启"
+        app:siv_title="黑名单拦截设置" />
+
+    <com.joking.jk.view.SettingItemView
+        android:id="@+id/siv_applock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:siv_desc_off="程序锁已关闭"
+        app:siv_desc_on="程序锁已开启"
+        app:siv_title="程序锁设置" />
+
+</LinearLayout>

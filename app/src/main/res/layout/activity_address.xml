@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TitleBar"
+        android:text="归属地查询" />
+
+    <ImageView style="@style/Divider" />
+
+    <TextView
+        android:id="@+id/query_number"
+        style="@style/TextContent"
+        android:layout_gravity="center"
+        android:hint="请输入查询号码" />
+
+    <ImageView style="@style/Divider" />
+
+    <include layout="@layout/number_keyboard" />
+
+    <ImageView style="@style/Divider" />
+
+    <TextView
+        android:id="@+id/query_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="查询结果"
+        android:textColor="@color/Black"
+        android:textSize="25sp" />
+
+    <ImageView style="@style/Divider" />
+
+</LinearLayout>

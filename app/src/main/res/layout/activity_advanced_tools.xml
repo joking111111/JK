@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_atools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.joking.jk.activity.AdvancedToolsActivity">
+
+    <TextView
+        style="@style/TitleBar"
+        android:text="高级工具" />
+
+    <ImageView style="@style/Divider" />
+
+    <TextView
+        style="@style/ToolsStyle"
+        android:clickable="true"
+        android:drawablePadding="5dp"
+        android:drawableStart="@mipmap/search"
+        android:onClick="numberAddressQuery"
+        android:text="电话归属地查询" />
+
+    <ImageView style="@style/Divider" />
+
+    <TextView
+        style="@style/ToolsStyle"
+        android:clickable="true"
+        android:drawablePadding="5dp"
+        android:drawableStart="@mipmap/backup"
+        android:onClick="backupSms"
+        android:text="短信备份" />
+
+    <ImageView style="@style/Divider" />
+
+    <TextView
+        style="@style/ToolsStyle"
+        android:clickable="true"
+        android:drawablePadding="5dp"
+        android:drawableStart="@mipmap/app_lock"
+        android:onClick="appLock"
+        android:text="程序锁" />
+
+    <ImageView style="@style/Divider" />
+</LinearLayout>

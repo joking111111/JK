@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_app_icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:paddingStart="5dp"
+            android:text="标题"
+            android:textColor="@color/Black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_app_memory_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_app_name"
+            android:paddingStart="5dp"
+            android:text="内存占用:22MB"
+            android:textColor="#99000000"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/tv_app_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:button="@drawable/btn_check"
+            android:clickable="false"
+            android:focusable="false"
+            android:paddingEnd="5dp" />
+    </RelativeLayout>
+
+</LinearLayout>

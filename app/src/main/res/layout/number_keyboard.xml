@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/NumberStyle"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/NumberStyle"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn3"
+            style="@style/NumberStyle"
+            android:text="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/NumberStyle"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/btn5"
+            style="@style/NumberStyle"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/btn6"
+            style="@style/NumberStyle"
+            android:text="6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/btn7"
+            style="@style/NumberStyle"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/btn8"
+            style="@style/NumberStyle"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/btn9"
+            style="@style/NumberStyle"
+            android:text="9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/NumberStyle"
+            android:background="@drawable/btn_green_selector"
+            android:text="清空" />
+
+        <Button
+            android:id="@+id/btn0"
+            style="@style/NumberStyle"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            style="@style/NumberStyle"
+            android:background="@drawable/btn_green_selector"
+            android:text="确定" />
+    </LinearLayout>
+
+</merge>

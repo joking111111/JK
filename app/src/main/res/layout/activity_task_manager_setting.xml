@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TitleBar"
+        android:text="进程管理设置" />
+
+    <CheckBox
+        android:id="@+id/cb_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="显示系统进程"
+        android:textColor="@color/Black"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cb_status_kill_process"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="锁屏清理进程"
+        android:textColor="@color/Black"
+        android:textSize="20sp" />
+
+</LinearLayout>
